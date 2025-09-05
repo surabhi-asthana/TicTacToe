@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Stylesheet" href="TicTacToeStyle.css">
+    </head>
+    <body>
+        <h1 id="TicTacToe">Tic Tac Toe</h1>
+        <div class="parent"><p id="para"></p></div>
+        <div id="Score"><div><div id="name1">Player 1</div><div style="border: 1px solid black;"><p id="score1"></p></div></div>
+        <div> <div id="name2">Player 2</div><div style="border: 1px solid black;"><p id="score2"></p></div></div>
+        </div>
+        <center><div class="container" id="container">
+            <button id="0" onclick="place(this.id)"></button>
+            <button id="1" onclick="place(this.id)"></button>
+            <button id="2" onclick="place(this.id)"></button>
+            <button id="3" onclick="place(this.id)"></button>
+            <button id="4" onclick="place(this.id)"></button>
+            <button id="5" onclick="place(this.id)"></button>
+            <button id="6" onclick="place(this.id)"></button>
+            <button id="7" onclick="place(this.id)"></button>
+            <button id="8" onclick="place(this.id)"></button>
+        </div>
+        <div id="restart" onclick="location.reload();saveValue();">New Game</div>
+        <div id="reset" onclick="location.reload();resetScore();">Reset</div>
+    </center>
+        <script src="TicTacToejs.js"></script>
+    </body>
+</html>

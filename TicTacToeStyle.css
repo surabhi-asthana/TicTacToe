@@ -1,0 +1,115 @@
+.container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border:10px solid rgb(0, 0, 77);
+    box-shadow:0px 0px 15px rgb(70, 70, 70);
+}
+h1{
+    color: rgb(0, 0, 77);
+    text-align: center;
+    font-size: 50px;
+}
+button{
+    color: rgb(0, 0, 77);
+    font-weight: 600;
+    font-size: 40px;
+    padding:0;
+    background-color: rgb(185, 204, 255);
+    border: 2px solid rgb(0, 0, 77);
+    transition: .5s background-color;
+}
+
+button:hover{
+    background-color:rgb(234, 241, 252);
+    cursor: pointer;
+}
+button:active{
+    background-color:white;
+}
+button:disabled{
+   background-color: rgb(185, 204, 255);
+    cursor: default; 
+}
+.parent{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 1px;  
+}
+#para{
+    color: rgb(0, 0, 77);
+    font-size: 30px;
+    padding: 8px;
+    margin:0;
+    width: fit-content;
+    height: 45px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(240, 239, 239);
+}
+body{
+    background-color: rgba(224, 232, 252, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#restart{
+    display: inline-block;
+    color:black;
+    margin-top: 20px;
+    width: 90px;
+    height:30px;
+    padding-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    margin-right: 10px;
+}
+#restart:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#reset{
+    display: inline-block;
+    color:black;
+    margin-top: 20px;
+    width: 70px;
+    height:30px;
+    padding-top: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgb(224, 224, 224);
+    
+}
+#reset:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#Score{
+    width:fit-content;
+    height: 70px;
+    background-color:rgb(240, 239, 239);
+    padding:10px;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 0px 8px black;
+    border: 1px solid black;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+#score1,#score2{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#name1,#name2{
+    margin:5px;
+    margin-top: 2px;
+}
