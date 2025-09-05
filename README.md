@@ -1,9 +1,9 @@
-## TicTacToe
+# TicTacToe
 
 A simple Tic Tac Toe game built with HTML, CSS, and JavaScript.
 The game includes a player setup page where users can enter their names before starting the match.
 
-# Features
+## Features
 
 Enter custom player names before starting the game
 
@@ -19,7 +19,7 @@ New game button to start a new game without changing the scores
 
 Reset button to clear scores and restart
 
-# How to Play
+## How to Play
 
 Open player.html
 
@@ -37,10 +37,12 @@ First to align three marks (row, column, or diagonal) wins!
 
 If all boxes are filled and no winner → it’s a Draw.
 
-# Screenshots
+## Screenshots
 ![Homepage image](https://github.com/surabhi-asthana/TicTacToe/blob/9910864ccd8cdb8b681176ed2e8b4df54cb16780/image1.png)
+![image2](https://github.com/surabhi-asthana/TicTacToe/blob/429a98ac5d288414c8082e93eaa8b6d30725e55a/image2.png)
 
-# Future Improvements
+
+## Future Improvements
 
 Make fully responsive for mobile devices
 
@@ -58,6 +60,6 @@ CSS3 (styling, themes)
 
 JavaScript (DOM manipulation, sessionStorage)
 
-# License
+## License
 
 This project is open source. You’re free to use, modify, and share it.
