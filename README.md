@@ -38,7 +38,7 @@ First to align three marks (row, column, or diagonal) wins!
 If all boxes are filled and no winner → it’s a Draw.
 
 # Screenshots
-
+![Homepage image](https://github.com/surabhi-asthana/TicTacToe/blob/fb8417b45ac4ae9081c34cf6d01b9f7c51a18a6f/README.md)
 
 # Future Improvements
 
