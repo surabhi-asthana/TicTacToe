@@ -1,4 +1,4 @@
-# TicTacToe
+# Tic-Tac-Toe Game
 
 A simple Tic Tac Toe game built with HTML, CSS, and JavaScript.
 The game includes a player setup page where users can enter their names before starting the match.
