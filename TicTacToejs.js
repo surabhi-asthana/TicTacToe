@@ -11,6 +11,35 @@ function resetScore() {
     sessionStorage.removeItem("Player2");
     document.getElementById("score2").innerText = win2;
   }
+  function resetBoard() {
+    buttons.forEach(btn => {
+        btn.textContent = "";
+        btn.disabled = false;
+        btn.style.backgroundColor = "";  
+        btn.style.color = "";
+        btn.style.border = "";
+        btn.onmouseenter = null;
+    btn.onmouseleave = null; 
+     btn.onmouseenter = () => {
+        if (!btn.disabled) {
+            btn.style.backgroundColor = 
+                (player == 2) ? "rgba(255, 241, 241, 1)" : "rgb(234, 241, 252)";
+        }
+    };
+
+    btn.onmouseleave = () => {
+        btn.style.backgroundColor = 
+            (player == 2) ? "rgba(255, 189, 189, 1)" : "rgb(185, 204, 255)";
+    };
+    });
+       document.getElementById("container").style.setProperty("border", "");
+       document.body.style.background="";
+       document.getElementById("TicTacToe").style.color = "";
+    document.getElementById("para").style.color = "";
+    w = 0;
+    player = 1;
+    document.getElementById("para").textContent = "Your turn";
+  }
 function saveValue() {
   let value1=win1;
   let value2=win2;
