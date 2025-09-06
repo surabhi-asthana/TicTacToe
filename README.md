@@ -52,7 +52,7 @@ Enter your name
 
 Player 1 = X(You)
 
-Player 2 = O(Cmoputer)
+Player 2 = O(Computer)
 
 Computer places automatically after your turn
 
