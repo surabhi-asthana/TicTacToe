@@ -56,8 +56,6 @@ CSS3 (styling, themes)
 JavaScript (DOM manipulation, sessionStorage)
 
 ## Screenshots
-![Homepage image](https://github.com/surabhi-asthana/TicTacToe/blob/9910864ccd8cdb8b681176ed2e8b4df54cb16780/image1.png)
-![Player 1 turn](https://github.com/surabhi-asthana/TicTacToe/blob/429a98ac5d288414c8082e93eaa8b6d30725e55a/image2.png)
 ![Player 2 turn](https://github.com/surabhi-asthana/TicTacToe/blob/128a87971516048df5607e2d444d19c9560b2a53/image3.png)
 ![Player 1 wins](https://github.com/surabhi-asthana/TicTacToe/blob/128a87971516048df5607e2d444d19c9560b2a53/image4.png)
 
