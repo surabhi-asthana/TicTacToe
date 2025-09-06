@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Stylesheet" href="TicTacToe1.css">
+    </head>
+    <body>
+        <div id="overlay"></div>
+        <h1 id="TicTacToe">Tic Tac Toe</h1>
+        <div class="parent"><p id="para">Your Turn</p></div>
+        <div id="Score"><div><div id="name1">Player 1</div><div style="border: 1px solid black;"><p id="score1"></p></div></div>
+        <div> <div id="name2">Computer</div><div style="border: 1px solid black;"><p id="score2"></p></div></div>
+        </div>
+        <center><div class="container" id="container">
+            <button id="0" onclick="doAction(this.id,1)"></button>
+            <button id="1" onclick="doAction(this.id,1)"></button>
+            <button id="2" onclick="doAction(this.id,1)"></button>
+            <button id="3" onclick="doAction(this.id,1)"></button>
+            <button id="4" onclick="doAction(this.id,1)"></button>
+            <button id="5" onclick="doAction(this.id,1)"></button>
+            <button id="6" onclick="doAction(this.id,1)"></button>
+            <button id="7" onclick="doAction(this.id,1)"></button>
+            <button id="8" onclick="doAction(this.id,1)"></button>
+        </div>
+        <div id="restart" onclick="resetBoard();saveValue();">New Game</div>
+        <div id="reset" onclick="resetBoard();resetScore();">Reset</div>
+        <div id="double" onclick="location.href='input.html'">2 Players</div>
+        <div id="menu" onclick="location.href='index.html'">Home</div>
+        <select id="choice" name="choice" onchange="doAction(null,0)">
+    <option value="Easy" selected>Easy</option> 
+    <option value="Hard">Hard</option>
+    </select>
+    </center>
+        <script src="TicTacToe1.js"></script>
+    </body>
+</html>
