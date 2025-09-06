@@ -22,8 +22,10 @@
             <button id="7" onclick="place(this.id)"></button>
             <button id="8" onclick="place(this.id)"></button>
         </div>
-        <div id="restart" onclick="location.reload();saveValue();">New Game</div>
-        <div id="reset" onclick="location.reload();resetScore();">Reset</div>
+        <div id="restart" onclick="resetBoard();saveValue();">New Game</div>
+        <div id="reset" onclick="resetBoard();resetScore();">Reset</div>
+        <div id="single" onclick="location.href='singleip.html'">Single Player</div>
+        <div id="menu" onclick="location.href='index.html'">Home</div>
     </center>
         <script src="TicTacToejs.js"></script>
     </body>
