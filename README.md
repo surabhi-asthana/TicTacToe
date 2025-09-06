@@ -9,9 +9,19 @@ The game includes a player setup page where users can enter their names before s
 
 Enter custom player names before starting the game
 
- Two-player gameplay (X and O)
+Menu allows mode choice 
 
-Score tracking (stored in sessionStorage)
+2 Player Mode (Player vs Player)(X and O)
+
+Single Player Mode with computer opponent
+
+  Easy Mode → computer plays random moves
+
+  Hard Mode → computer plays strategically (tries to block/win)
+
+
+Separate score tracking for Easy, Hard, and 2 Player modes
+
 
 Different color themes for each player’s turn
 
@@ -19,19 +29,32 @@ Automatic game stop when someone wins or when it’s a draw
 
 New game button to start a new game without changing the scores
 
-Reset button to clear scores and restart
+Reset button to reset scores 
 
 ## How to Play
 
+2 Player game mode-
+
 Enter Player 1 and Player 2 names
 
-Click Start Game → you’ll be redirected to tic.html
+On submitting, you are taken to the game
 
 Take turns clicking the grid:
 
 Player 1 = X
 
 Player 2 = O
+
+
+SIngle Player game mode-
+
+Enter your name
+
+Player 1 = X(You)
+
+Player 2 = O(Cmoputer)
+
+Computer places automatically after your turn
 
 First to align three marks (row, column, or diagonal) wins!
 
@@ -45,7 +68,7 @@ Add sound effects for clicks and win/loss
 
 Add themes (light/dark mode)
 
-Add single-player mode vs computer (AI)
+Add timer-based gameplay.
 
 ## Tech Stack
 
@@ -61,4 +84,4 @@ JavaScript (DOM manipulation, sessionStorage)
 
 ## License
 
-This project is open source. You’re free to use, modify, and share it.
+Have fun playing! Contributions are welcome.
