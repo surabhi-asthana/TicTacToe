@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>menu</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="Stylesheet" href="indexstyle.css">
-        <script src="indexjs.js"></script>
+        <link rel="Stylesheet" href="indexcss.css">
     </head>
     <body>
-        <h1>Welcome</h1>
-        <p>Enter your names</p>
-        <center><form class="formm" action="TicTacToe.html" method="get" onsubmit="saveData(event)">
-            <div class="x"><label for="p1">Player 1</label><input type="text" name="p1" id="p1" placeholder="Enter player 1's name" required><br>
-            <label for="p2">Player 2</label><input type="text" name="p2" id="p2" placeholder="Enter player 2's name" required>
-            <button>Submit</button>
+        <center><h1>Welcome</h1>
+        <p>Choose mode</p>
+        <div id="container"><button onclick="location.href='singleip.html'">
+            Single Player
+        </button>
+        <button onclick="location.href='input.html'">Two Players</button>
         </div>
-        </form></center>
-        
+        </center>
     </body>
 </html>
